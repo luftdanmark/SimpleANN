@@ -13,8 +13,12 @@ Adjust filenames in the main function to reflect dataset filenames
 
 ```
 $ python 2layer.py
-``` to build a new model
+``` 
+
+to build a new model
 
 ```
 $ python 2layer.py load
-``` to skip building and test with the latest model
+``` 
+
+to skip building and test with the latest model
