@@ -1,19 +1,6 @@
-```
-   ___  ___ _
-  / __\/ _ ( )__
- / /  / /_)// __|
-/ /__/ ___/ \__ \
-\____|/     |___/           _
-  /\ \ \___ _   _ _ __ __ _| |
- /  \/ / _ \ | | | '__/ _` | |
-/ /\  /  __/ |_| | | | (_| | |
-\_\ \/_\___|\__,_|_|  \__,_|_|     _
-  /\ \ \___| |___      _____  _ __| | __
- /  \/ / _ \ __\ \ /\ / / _ \| '__| |/ /
-/ /\  /  __/ |_ \ V  V / (_) | |  |   <
-\_\ \/ \___|\__| \_/\_/ \___/|_|  |_|\_\
-
-```
+###Simple ANN
+This is a simple 2-hidden-layer neural net which can be used for MNIST.
+It has been trained and tested on the full set of alphabetic characters as well, with success. 
 
 #### 2layer.py
 This is the network itself.
@@ -26,10 +13,8 @@ Adjust filenames in the main function to reflect dataset filenames
 
 ```
 $ python 2layer.py
-```
-- to build a new model
+``` to build a new model
 
 ```
 $ python 2layer.py load
-```
-- to skip building and test with the latest model
+``` to skip building and test with the latest model
